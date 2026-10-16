@@ -1,0 +1,25 @@
+{
+  "name": "kite-autonomous-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Autonomous multi-agent research, market radar & atomic arbitrage execution console powered by Kite AI & Kite Passport",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "dev": "npm --prefix backend run dev & npm --prefix frontend run dev",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build": "npm --prefix backend run build && npm --prefix frontend run build",
+    "test": "npm --prefix backend test"
+  },
+  "keywords": [
+    "kiteai",
+    "autonomous-agent",
+    "arbitrage",
+    "market-radar",
+    "kite-passport",
+    "x402",
+    "web3"
+  ],
+  "author": "KiteAI Developer",
+  "license": "Apache-2.0"
+}
